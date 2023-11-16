@@ -1,17 +1,16 @@
 package frc.robot.subsystems;
-//imports 
+// imports
 
-public class DriveTrain extends  SubsystemBase{
-    /*declare motor controllers
-     * CANSparkMax
-     * Give them ID's from constants*/
+public class DriveTrain {
+  /*declare motor controllers
+   * CANSparkMax
+   * Give them ID's from constants*/
 
+  // Make motor controller groups
+  /*MotorControllerGroup allows you to send multiple motor controllers the same instuctions and control them together
+   * We use this for controling each side of the drivetrain */
 
-     //Make motor controller groups
-     /*MotorControllerGroup allows you to send multiple motor controllers the same instuctions and control them together
-      * We use this for controling each side of the drivetrain */
+  // Declare DifferentialDrive
 
-      //Declare DifferentialDrive 
-
-      //Arcade drive 
+  // Arcade drive
 }
