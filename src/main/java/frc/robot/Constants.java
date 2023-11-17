@@ -15,5 +15,14 @@ package frc.robot;
 public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
+    public static final int JOYSTICK_X_AXIS = 0;
+    public static final int JOYSTICK_Y_AXIS = 1;
+  }
+
+  public final class DriveTrainConstants {
+    public static final int FRONT_LEFT_MOTOR_ID = 1;
+    public static final int BACK_LEFT_MOTOR_ID = 2;
+    public static final int FRONT_RIGHT_MOTOR_ID = 3;
+    public static final int BACK_RIGHT_MOTOR_ID = 4;
   }
 }
